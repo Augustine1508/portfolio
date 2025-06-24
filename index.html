@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Augustine Dozienwa</title>
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/font/font.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!--preload images-->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.png">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <span class="line"></span>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="84" height="26" alt="logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#project" class="navbar-link" data-nav-link>Project</a>
+          </li>
+
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+          
+
+        </ul>
+
+      </nav>
+
+
+      <!-- Theme Toggle Button -->
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+        <ion-icon name="sunny-outline" id="theme-icon"></ion-icon>
+      </button>
+
+
+      <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <div class="hero text-center" id="home">
+        <div class="container">
+
+          <div class="banner-outline has-after">
+
+            <div class="hero-banner img-holder has-after" style="--width: 500; --height: 680;" data-tilt>
+              <img src="./assets/images/hero-banner.jpg" width="500" height="680" alt="Drew Hays" class="img-cover">
+            </div>
+
+            <span class="span title">Augustine</span>
+
+          </div>
+
+          <div class="hero-content">
+
+            <h1 class="h1 title"> Augustine Dozienwa </h1>
+
+            <h1 class="h2 title"> Full Stack Developer </h2>
+
+            <div class="wrapper">
+              <a href="#" class="btn btn:hover">
+                <span class="span">Download CV</span>
+
+                <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+              </a>
+
+              <p class="hero-text">
+                From device to cloud to edge Innovate from anywhere with secure
+              </p>
+            </div>
+
+          </div>
+
+          <img src="./assets/images/hero-shape-1.png" width="559" height="232" alt="shape" class="shape shape-1">
+
+          <img src="./assets/images/hero-shape-2.png" width="1358" height="497" alt="shape" class="shape shape-2">
+
+        </div>
+      </div>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service text-center" aria-label="my services" id="service">
+        <div class="container">
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <!-- <div class="card-icon">
+                  <img src="./assets/images/service-icon-1.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div> -->
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Front End <br>
+                    Development
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <!-- <div class="card-icon">
+                  <img src="./assets/images/service-icon-2.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div> -->
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Back End <br>
+                    Development
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <!-- <div class="card-icon">
+                  <img src="./assets/images/service-icon-3.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div> -->
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Graphics <br>
+                    Design
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <!-- <li class="service-item">
+              <div class="service-card">
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Mobile <br>
+                    Application
+                  </a>
+                </h3>
+
+              </div>
+            </li> -->
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about-me" id="about">
+        <div class="container">
+
+          <div class="tab-container">
+
+            <ul class="tab-btn-list">
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6 active" data-tab-btn="about">About Me</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="skillset">Skillset</button>
+              </li>              
+
+            </ul>
+
+            <div class="tab-content active" data-tab-content="about">
+              
+
+              <div class="about-content">
+
+                  <h2 class="h4 title section-title">
+                    About Me
+                  </h2>
+
+                  <p class="section-text">
+                    I’m Augustine Dozienwa, a passionate Full Stack Developer who builds efficient, scalable, and user-centric web applications that solve real-world problems. With a solid foundation in both frontend and backend technologies, I specialize in crafting seamless digital experiences — from pixel-perfect UI to robust APIs.
+
+                    <br>
+                    My expertise spans across modern stacks like React, Node.js, and Django, enabling me to build and deploy dynamic applications with performance and scalability at their core.
+
+                    <br>
+                    I thrive at the intersection of design and functionality, bringing projects to life through clean code, optimized systems, and a constant focus on user satisfaction. Whether I’m collaborating with startups or contributing to large-scale enterprise solutions, I bring clarity, creativity, and commitment to every line of code.
+
+                    <br>
+                    When I’m not coding, you’ll find me learning new tech, mentoring junior devs, or refining side projects that push boundaries.
+                  </p>
+
+                  <ul class="about-list">
+
+                    <li class="about-item">
+                      <p class="list-title">Name</p>
+
+                      <span class="span title h5">Augustine Dozienwa</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Phone Number</p>
+
+                      <span class="span title h5">+234 810 7187 180</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Email Address</p>
+
+                      <span class="span title h5">adozienwa@gmail.com</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Social Network</p>
+
+                      <div class="social-list">
+
+                        <a href="#" class="social-link h6" title="Facebook">
+                          <lord-icon
+                              src="https://cdn.lordicon.com/axewyqun.json"
+                              trigger="morph"
+                              stroke="bold"
+                              state="morph-alone"
+                              colors="primary:#ffffff,secondary:#ffffff"
+                              style="width:30px;height:30px">
+                          </lord-icon>
+                        </a>
+
+                        <a href="#" class="social-link h6" title="Behance">
+                          <lord-icon
+                              src="https://cdn.lordicon.com/jjxzcivr.json"
+                              trigger="hover"
+                              stroke="bold"
+                              colors="primary:#ffffff,secondary:#ffffff"
+                              style="width:30px;height:30px">
+                          </lord-icon>
+                        </a>
+                        <a href="#" class="social-link h6" title="Linkedin">
+                          <lord-icon
+                            src="https://cdn.lordicon.com/qgebwute.json"
+                            trigger="morph"
+                            state="morph-circle"
+                            stroke="bold"
+                            colors="primary:#ffffff,secondary:#ffffff"
+                            style="width:30px;height:30px">
+                          </lord-icon>
+
+                        </a>
+
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+           
+
+            <div class="tab-content" data-tab-content="skillset">
+              <div class="grid-list">
+
+                <div class="skill-content">
+
+                  <h3 class="h4 title section-title">
+                    Frontend Development
+                  </h3>
+
+                  <ul class="skill-list">
+
+                    <li>
+                      HTML5, CSS3, JavaScript (ES6+)
+                    </li>
+
+                    <li>
+                      React.js
+                    </li>
+
+                    <li>
+                      Tailwind CSS, Bootstrap
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="skill-content">
+
+                  <h3 class="h4 title section-title">
+                    Backend Development
+                  </h3>
+
+                  <ul class="skill-list">
+
+                    <li>
+                      Node.js, Express.js
+                    </li>
+
+                    <li>
+                      Django, Python
+                    </li>
+
+                    <li>
+                      REST API & GraphQL
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="skill-content">
+
+                  <h3 class="h4 title section-title">
+                    Database & Storage
+                  </h3>
+
+                  <ul class="skill-list">
+
+                    <li>
+                      PostgreSQL, MySQL
+                    </li>
+
+                    <li>
+                      MongoDB
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="skill-content">
+
+                  <h3 class="h4 title section-title">
+                    DevOps & Tools
+                  </h3>
+
+                  <ul class="skill-list">
+
+                    <li>
+                      Git & GitHub
+                    </li>
+
+                    <li>
+                      Netlify, Vercel, Render
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </div>
+
+
+
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta" aria-label="work with me">
+        <div class="container">
+
+          <h2 class="title h2 section-title text-center">
+            Let’s build something amazing together.
+          </h2>
+
+          <br>
+          <span class="cta-text">
+            
+            Whether you need a powerful web app, scalable backend, or just want to brainstorm a tech idea.
+            <br>
+
+            I’m ready to bring it to life with clean code and creative solutions.
+
+          </span>
+
+
+          <a href="#" class="btn btn:hover">
+            <span class="span">Hire Me Now</span>
+
+            <lord-icon
+              src="https://cdn.lordicon.com/ircnfpus.json"
+              trigger="hover"
+              colors="primary:#ffffff"
+              style="width:30px;height:30px">
+            </lord-icon>
+          </a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECTS
+      -->
+
+      <section class="section project" aria-label="my latest projects" id="project">
+
+        <ul class="slider-list">
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-1.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Creative & experienced digital design studio" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Live Demo</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">                
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Fintech Web App</a>
+                </h3>
+                
+                <p class="card-subtitle">Online banking system with full auth, transfers, and analytics dashboard.</p>
+              
+                <h5>Html, Css, JavaScript, Bootstrap, Django, MySQL</h5>
+              
+              </div>
+
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-2.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Front End Development & Maintenance" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">                
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Fintech Web App</a>
+                </h3>
+                
+                <p class="card-subtitle">Online banking system with full auth, transfers, and analytics dashboard.</p>
+              
+                <h5>Html, Css, JavaScript, Bootstrap, Django, MySQL</h5>
+              
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-3.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Flutter Framework & Warframe Design" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">                
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Fintech Web App</a>
+                </h3>
+                
+                <p class="card-subtitle">Online banking system with full auth, transfers, and analytics dashboard.</p>
+              
+                <h5>Html, Css, JavaScript, Bootstrap, Django, MySQL</h5>
+              
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-4.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Full Web Development Project With JavaScript" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Web, Product</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Full Web Development Project With JavaScript</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-5.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Cloud Migration & AWS Services" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Web, Product</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Cloud Migration & AWS Services</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" aria-label="contact me" id="contact">
+        <div class="container">
+
+          <h2 class="title h2 section-title">Get In Touch</h2>
+
+            <form id="contact-form" class="contact-form" method="POST">
+
+              <input type="text" name="name" placeholder="Full name" autocomplete="off" required class="input-field">
+
+              <input type="email" name="email" placeholder="Email address" autocomplete="off" required
+                class="input-field">
+
+              <input type="tel" name="phone" placeholder="Phone" autocomplete="off" class="input-field">
+
+              <textarea name="message" placeholder="Enter massges" required class="input-field"></textarea>
+
+
+              <button type="submit" class="btn btn:hover send">Send</button>
+            </form>
+
+
+            <div id="form-message" class="text-center" style="display: none; margin-top: 20px; font-size: 2.6rem;">
+              Thank you! Your message has been sent successfully.
+            </div>
+
+          <div class="contact-content">
+
+
+
+            <ul class="contact-list">
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <lord-icon
+                    src="https://cdn.lordicon.com/wtywrnoz.json"
+                    trigger="hover"
+                    colors="primary:#ffffff"
+                    style="width:50px;height:50px">
+                  </lord-icon>
+                </div>
+
+                <div>
+                  <span class="title h6">+234 810 0718 7180</span>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <lord-icon
+                    src="https://cdn.lordicon.com/rbsqvtgo.json"
+                    trigger="hover"
+                    stroke="bold"
+                    colors="primary:#ffffff,secondary:#ffffff"
+                    style="width:50px;height:50px">
+                  </lord-icon>
+                </div>
+
+                <div>
+                  <address class="title h6">
+                    Portharcourt, Rivers State, Nigeria.
+                  </address>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <lord-icon
+                    src="https://cdn.lordicon.com/ozlkyfxg.json"
+                    trigger="hover"
+                    stroke="bold"
+                    colors="primary:#ffffff,secondary:#ffffff"
+                    style="width:50px;height:50px">
+                  </lord-icon>
+                </div>
+
+                <div>
+                  <span class="title h6">adozienwa@gmail.com</span>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        Copyright & Design By Augustine Dozienwa - 2025
+      </p>
+
+      <a href="#top" class="back-top-btn">
+        <span class="span">Back To Top</span>
+
+        <lord-icon
+
+        
+          src="https://cdn.lordicon.com/wwluxohy.json"
+          trigger="hover"
+          colors="primary:#ffffff"
+          style="width:30px;height:30px">
+        </lord-icon>
+      </a>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor-dot" data-cursor></div>
+  <div class="cursor-outline" data-cursor></div>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!-- 
+    - icon links
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.lordicon.com/lordicon.js"></script>
+
+</body>
+
+</html>
